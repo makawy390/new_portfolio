@@ -1,0 +1,32 @@
+.footer {
+  background: var(--color-par);
+  color: var(--main-color);
+}
+.footer .flex-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.flex-footer ul {
+  display: flex;
+  list-style: none;
+}
+.flex-footer ul li {
+  padding-left: 15px;
+}
+.footer ul li svg {
+  font-size: 20px;
+  color: #fff;
+}
+.flex-footer h6 {
+  color: var(--color-four);
+  font-size: 14px;
+}
+@media (min-width: 250px) and (max-width: 1199px) {
+  .footer .flex-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

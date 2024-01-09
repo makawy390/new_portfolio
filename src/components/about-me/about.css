@@ -1,0 +1,92 @@
+.about {
+  padding: 100px 0;
+}
+.about p {
+  line-height: 2;
+  word-spacing: 2px;
+  color: var(--color-par);
+  margin: 5px 0;
+}
+.education {
+  padding: 30px 0;
+  height: 260px;
+}
+.education span svg {
+  font-size: 40px;
+  position: relative;
+  top: 8px;
+  left: 30px;
+}
+.graduation {
+  position: relative;
+}
+
+.graduation::before {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  width: 4px;
+  height: 120px;
+  background-color: cadetblue;
+}
+.graduation::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: cadetblue;
+}
+.services{
+  padding: 40px 0;
+}
+.services h3{
+  margin: 20px 0;
+}
+.services h4{
+font-size: 1.875rem;
+line-height: 2.25rem;
+margin-bottom: 20px;
+}
+.services .box-service{
+  padding: 45px;
+}
+.box-service .numbers{
+  background-color:  rgba(209,213,219,.8);
+color: #000;
+font-weight: 600;
+  padding: 12px ;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+.about span span{
+  font-weight: 700;
+}
+.about h2{
+  margin-bottom: 20px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  word-spacing: 3px;
+  text-transform:  uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

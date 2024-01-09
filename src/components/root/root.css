@@ -1,0 +1,93 @@
+.light {
+  min-height: calc(100vh - 48.19px);
+  background-color: var(--main-color);
+  color: var(--main-background);
+  transition: all 0.5s ease-in-out;
+}
+.light .skills .box , .light .skills .box-skills 
+, .light .services .box-service , .light .contact-image,
+.light .contact .box-contact , .light hr{
+    background-color: var(--main-background);
+  color: var(--main-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.dark {
+  min-height: calc(100vh - 48.19px);
+  background-color: var(--main-background);
+  color: var(--main-color);
+}
+.dark .skills .box , .dark .skills .box-skills , .dark .services .box-service
+ ,.dark .contact .box-contact , .dark hr , .dark .contact-image{
+    background: var(--main-color);
+  color: var(--main-background);
+  transition: all 0.3s ease-in-out;
+}
+.spinn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+hr{
+  height: 1.5px;
+margin-top: 15px;}
+
+
+.light .css-1b7o686-MuiInputBase-root-MuiInput-root:after , .light .css-q469bn-MuiInputBase-root-MuiInput-root:after{
+  border:  2.2px solid var(--main-background);
+}
+.css-1r74e2h-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  font-size: 20px ;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+input{
+  padding: 15px 25px !important;
+}
+.light .css-1r74e2h-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color:var(--main-background);
+}
+.light input {
+  color:var(--main-background);
+}
+/* ========================== */
+.dark .css-1b7o686-MuiInputBase-root-MuiInput-root:after , .dark .css-q469bn-MuiInputBase-root-MuiInput-root:after {
+  border:  2.2px solid var(--main-color);
+}
+.dark .css-1r74e2h-MuiFormLabel-root-MuiInputLabel-root.Mui-focused{
+  color:var(--main-color);
+
+}
+.dark input {
+  padding: 15px 25px !important;
+  color:var(--main-color);
+}
+.listed-top{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  z-index: 1001;
+}
+.dark .css-1d1r5q-MuiFormHelperText-root , .dark .css-66dh3a-MuiInputBase-input-MuiInput-input{
+  color:var(--main-color);
+}
+.light .css-1d1r5q-MuiFormHelperText-root  , .light .css-66dh3a-MuiInputBase-input-MuiInput-input{
+   color:var(--main-background); 
+}
+.dark .box-projects , .light .listed li svg{
+  background: var(--main-background);
+  color:var(--main-color);
+}
+.light .box-projects , .dark .listed li svg{
+  background: var(--main-color);
+  color:var(--main-background);
+}
+.light .graduation::before , .light .graduation::after{
+  background: var(--main-background);
+
+}
+.dark .graduation::before , .dark .graduation::after{
+  background: var(--main-color);
+
+}

@@ -1,0 +1,20 @@
+.sign-in{
+ padding: 120px 0;
+
+}
+.sign-in form{
+ display: flex;
+ flex-direction: column;
+ width: 500px;
+}
+.sign-in form input{
+ background:linear-gradient(195deg, #abc9e9, #f5bfd7, #f6cfbe);
+ padding: 20px 25px;
+ color: #333;
+ border-radius: 8px;
+}
+.sign-in form button{
+ margin-top: 20px;
+ padding: 20px;
+ cursor: pointer;
+}
