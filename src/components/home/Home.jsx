@@ -43,7 +43,7 @@ const Home = () => {
         </div>
         <div className="btns">
           {/* <button to="https://movies-plus-app.netlify.app/">Dowload cv</button> */}
-          <Link to='' target="_blank">Dowload cv</Link>
+          <Link to='https://drive.google.com/file/d/1WdYhG-7o8IKgJlrWVm8A_X1T9jCcBMRj/view' target="_blank">Dowload cv</Link>
         <Link to='/contact'>Contact</Link>
        
         </div>
